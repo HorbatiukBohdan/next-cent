@@ -13,6 +13,7 @@ import Login from './pages/Login/Login';
 
 
 import "./assets/css/general.css";
+import "./assets/css/reset.css"
 import IndexPage from './Components/IndexPage';
 function App() {
     

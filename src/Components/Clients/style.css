@@ -1,10 +1,10 @@
-#clients .container{
+.home-image{
     display: flex;
-width: 1440px;
-padding: 0px 144px;
-flex-direction: column;
-align-items: center;
-gap: 16px;
+    justify-content: center;
+}
+.clients-list{
+    display: flex;
+    justify-content: space-around;
 }
 .title-client{
     display: flex;
@@ -26,7 +26,8 @@ line-height: 44px; /* 122.222% */
 .client-description{
     color: var(--neutral-grey, #717171);
 text-align: center;
-margin-top: -30px;
+/* margin-top: -30px; */
+margin-bottom: 30px;
 
 /* Body/Regular/Body 2 */
 font-family: Inter;
