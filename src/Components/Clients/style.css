@@ -1,0 +1,37 @@
+#clients .container{
+    display: flex;
+width: 1440px;
+padding: 0px 144px;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+}
+.title-client{
+    display: flex;
+width: 1110px;
+flex-direction: column;
+gap: 8px;
+width: 100%;
+
+
+}
+.clients-title{
+    color: var(--neutral-d-grey, #4D4D4D);
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px; /* 122.222% */
+}
+.client-description{
+    color: var(--neutral-grey, #717171);
+text-align: center;
+margin-top: -30px;
+
+/* Body/Regular/Body 2 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}

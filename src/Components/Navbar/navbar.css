@@ -1,0 +1,122 @@
+.nav{
+    background: var(--neutral-silver, #F5F7FA);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.nav__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+li{
+    list-style: none;
+   
+}
+.nav__link{
+    color: var(--text-gray-900, #18191F);
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.nav__toggler div{
+    width: 25px;
+    height: 2px;
+    margin: 5px;
+    background-color: black;
+    transition: 0.3s ease-in;
+}
+.nav__toggler{
+    
+    display: none;
+}
+.button{
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:35px;
+    text-decoration: none;
+    
+    
+ } 
+.btn-login{
+    text-decoration: none;
+    color: var(--brand-primary, #4CAF4F);
+text-align: center;
+font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+
+/* Label / Medium Label */
+
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+}
+.btn-sign-up{
+border-radius: 6px;
+background: var(--brand-primary, #4CAF4F);
+color: var(--default-white, #FFF);
+text-align: center;
+font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+text-decoration: none;
+
+/* Label / Medium Label */
+
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+display: flex;
+padding: 10px 20px;
+align-items: center;
+gap: 10px;
+}
+
+@media only screen and (max-width: 768px) { 
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+ 
+     } 
+     .button{
+        padding-top: 20px;
+        
+        padding-left: 0px;
+        
+     } 
+    .nav__toggler{
+       display: block;
+
+    } 
+    .nav__menu{
+        position: fixed;
+        top:35px;
+        right: 0;
+        width: 100%;
+        background: var(--neutral-silver, #F5F7FA);
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.4s ease-in;
+        gap: 20px;
+    } 
+}
+/* Nav Actove Class */
+.nav__active{
+    transform: translateX(0);
+}
+.toggler .line1{
+    transform: rotate(-45deg) translate(-4px, 6px);
+}
+.toggler .line2{
+    opacity: 0;
+}
+.toggler .line3{
+    transform: rotate(45deg) translate(-4px, -7px);
+}

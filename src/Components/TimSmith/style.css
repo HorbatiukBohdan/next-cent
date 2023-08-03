@@ -1,0 +1,49 @@
+#timsmith .container{
+    margin-top: 45px;
+    display: flex;
+width: 1440px;
+padding: 32px 144px;
+align-items: center;
+gap: 78px;
+background: var(--neutral-silver, #F5F7FA);
+}
+.timsmith-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+.timsmith-description{
+    color: var(--neutral-grey, #717171);
+
+    /* Body/Medium/Body 2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    width: 650px;
+}
+.timsmith-title{
+    color: var(--brand-primary, #4CAF4F);
+
+    /* Heading/Headline 4 */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 140% */
+    margin-top: -40px;
+}
+.timsmith-second-description{
+    color: var(--neutral-l-grey, #89939E);
+
+    /* Body/Regular/Body 2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-top: -40px;
+}
