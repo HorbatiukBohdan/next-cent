@@ -46,3 +46,22 @@ font-weight: 500;
 line-height: 24px; /* 150% */
 text-decoration-line: none;
 }
+@media only screen and (max-width: 768px) {
+    #home .container{
+        flex-direction: column;
+    }
+    .home-description{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .button-reg{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .image-home-preview{
+        margin-top: 50px;
+    }
+}
+        

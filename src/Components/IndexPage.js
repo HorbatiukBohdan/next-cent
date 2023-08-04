@@ -7,6 +7,8 @@ import Helping from './Helping/Helping';
 import YourSite from './YourSite/YourSite';
 import TomSmith from './TimSmith/TimSmith';
 import Footer from './Footer/Footer';
+import Caring from './Caring/Caring';
+import Pellentesque from './Pellentesque/Pellentesque';
 
 function IndexPage() {
 
@@ -19,6 +21,8 @@ function IndexPage() {
             <Helping />
             <YourSite />
             <TomSmith />
+            <Caring />
+            <Pellentesque />
             <Footer />
         </main>
     );

@@ -8,38 +8,39 @@ const System = () => {
       <div className="container">
         <div className="title-system">
           <h1 className="system-title">
-            Manage your entire community in a single system
+            Manage your entire community<br/>
+             in a single system
           </h1>
           <p className="system-description">Who is Nextcent suitable for?</p>
         </div>
         <div className="system-info">
-        <div className="system-table">
-          <img className="image-system" src={Systemimage} alt="Logo" />
-          <h1>Membership Organisations</h1>
-          <p className="system-description">
-            Our membership management software provides full automation of
-            membership renewals and payments
-          </p>
-        </div>
-        <div className="system-table">
-          <img className="image-system" src={Systemimage} alt="Logo" />
-          <h1>Membership Organisations</h1>
-          <p className="system-description">
-            Our membership management software provides full automation of
-            membership renewals and payments
-          </p>
-        </div>
-        <div className="system-table">
-          <img className="image-system" src={Systemimage} alt="Logo" />
-          <h1>Membership Organisations</h1>
-          <p className="system-description">
-            Our membership management software provides full automation of
-            membership renewals and payments
-          </p>
+          <div className="system-table">
+            <img className="image-system" src={Systemimage} alt="Logo" />
+            <h1>Membership Organisations</h1>
+            <p className="system-description">
+              Our membership management software provides full automation of
+              membership renewals and payments
+            </p>
+          </div>
+          <div className="system-table">
+            <img className="image-system" src={Systemimage} alt="Logo" />
+            <h1>Membership Organisations</h1>
+            <p className="system-description">
+              Our membership management software provides full automation of
+              membership renewals and payments
+            </p>
+          </div>
+          <div className="system-table">
+            <img className="image-system" src={Systemimage} alt="Logo" />
+            <h1>Membership Organisations</h1>
+            <p className="system-description">
+              Our membership management software provides full automation of
+              membership renewals and payments
+            </p>
+          </div>
         </div>
       </div>
-      </div>
-      
+
     </section>
   );
 };

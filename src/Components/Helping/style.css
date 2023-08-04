@@ -5,7 +5,6 @@
 }
 .helping-info{
     display: flex;
-    width: 540px;
     flex-direction: column;
     align-items: flex-start;
 
@@ -62,6 +61,32 @@ gap: 16px;
 
 }
 
-.helping-statistics-info h1{
-  
+
+
+@media only screen and (max-width: 768px) {
+    #helping .container{
+      flex-direction: column;
+      
+    }
+    .helping-title {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .helping-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .helping-description{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .helping-statistics{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
 }

@@ -47,3 +47,18 @@
     line-height: 24px; /* 150% */
 
 }
+
+@media only screen and (max-width: 768px) {
+    #timsmith .container{
+      flex-direction: column;
+      gap: 30px;
+    }
+    .timsmith-info{
+        align-items: center;
+        flex-direction: column;
+    }
+    .image-container{
+            display: flex;
+            flex-direction: column;
+    }
+}

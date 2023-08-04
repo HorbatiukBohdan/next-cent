@@ -15,7 +15,6 @@
 
 }
 .system-title {
-  width: 500px;
   color: var(--neutral-d-grey, #4d4d4d);
 
   font-size: 36px;
@@ -24,6 +23,7 @@
   line-height: 44px;
 }
 .system-description {
+  margin-top: 8px;
   color: var(--neutral-grey, #717171);
   text-align: center;
 
@@ -65,3 +65,15 @@ h1 {
   font-weight: 700;
   line-height: 36px; /* 128.571% */
 }
+@media only screen and (max-width: 768px) {
+
+  
+  .system-info{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+    gap: 50px;
+    margin-top: 25px;
+   
+  }
+  }

@@ -28,7 +28,6 @@
   display: flex;
   color: var(--neutral-d-grey, #4d4d4d);
   text-align: start;
-  width: 500px;
   /* Heading/Headline 2 */
   font-family: Inter;
   font-size: 36px;
@@ -38,7 +37,6 @@
 }
 .pixelgade-description {
   text-align: start;
-  width: 510px;
   color: var(--neutral-grey, #717171);
 
   /* Body/Regular/Body 3 */
@@ -47,4 +45,21 @@
   font-style: normal;
   font-weight: 400;
   line-height: 20px; /* 142.857% */
+}
+
+@media only screen and (max-width: 768px) {
+#pixelgrade .container {
+  flex-direction: column;
+}
+.pixelgade-title {
+  display: flex;
+  text-align: center;
+  margin-left: 55px;
+  width: 500px;
+}
+.pixelgade-description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 }

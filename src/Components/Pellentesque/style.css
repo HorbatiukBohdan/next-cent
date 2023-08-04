@@ -1,0 +1,54 @@
+#pellentesque .container{
+    background: var(--neutral-silver, #F5F7FA);
+    
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+#pellentesque{
+    background: var(--neutral-silver, #F5F7FA);
+}
+.title-pellentesque{
+    color: var(--neutral-black, #263238);
+    text-align: center;
+    
+    /* Heading/Headline 1 */
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px; /* 118.75% */
+
+}
+.arrow{
+    display: flex;
+width: 20px;
+height: 26px;
+padding: 5px 2.5px 5px 2.06px;
+justify-content: center;
+align-items: center;
+}
+.pellentesque-button-arrow{
+   
+    display: flex;
+  padding: 14px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+    border-radius: 4px;
+  background: var(--brand-primary, #4CAF4F);
+}
+.button-footer{
+    text-decoration-line: none;
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    
+    /* Body/Medium/Body 2 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    }

@@ -2,6 +2,8 @@ import * as React from "react";
 import "./style.css";
 import TeslaImage from "../../images/Tesla-image.png";
 import TimSmithImage from "../../images/TimSmith-image.png";
+import { Link } from "react-router-dom";
+import Arrow from "../../assets/icons/Right.png";
 const TomSmith = () => {
     return (
         <section id="timsmith">
@@ -39,6 +41,7 @@ const TomSmith = () => {
                         src={TimSmithImage}
                         alt="Logo"
                     />
+                    
                 </div>
             </div>
         </section>

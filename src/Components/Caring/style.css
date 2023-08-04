@@ -1,0 +1,117 @@
+#caring .container {
+    align-items: center;
+    
+  }
+  #caring{
+    margin: 90px 0px;
+  }
+  .title-caring{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.caring-title {
+    width: 542px;
+    color: var(--neutral-d-grey, #4d4d4d);
+  
+    font-size: 36px;
+  
+    font-weight: 600;
+    line-height: 44px;
+  }
+.caring-description{
+    color: var(--neutral-grey, #717171);
+text-align: center;
+margin-top: 8px;
+
+/* Body/Regular/Body 2 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+
+.caring-ifo {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+
+}
+
+.caring-discription-info {
+  
+  text-align: center;
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  background: var(--neutral-silver, #F5F7FA);
+  /* Shadow/8px */
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.40);
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-system {
+  border-radius: 8px;
+
+}
+
+.text-overlay {
+  border-radius: 8px;
+  color: var(--neutral-grey, #717171);
+width: 320px;
+margin-left: 25px;
+/* Shadow/8px */
+
+  transform: translate(0%, -50%);
+  border-radius: 8px;
+background: var(--neutral-silver, #F5F7FA);
+
+/* Shadow/8px */
+box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.40);
+  padding: 16px;
+  
+  text-align: center;
+}
+.caring-button-arrow{
+  display: flex;
+padding: 8px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+margin-top: 20px;
+}
+.button-caring{
+color: var(--brand-primary, #4CAF4F);
+text-decoration-line: none;
+/* Heading/Headline 4 */
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 140% */
+}
+
+
+@media only screen and (max-width: 768px) {
+  #timsmith .container{
+    flex-direction: column;
+    
+  }
+  .caring-ifo{
+    align-items: center;
+    flex-direction: column;
+}
+
+}
