@@ -19,6 +19,9 @@ const path = window.location.pathname
         active === 'nav__menu' ? setActive('nav__menu nav__active') : setActive("nav__menu");
         toggleIcon === 'nav__toggler' ? setToggleIcon('nav__toggler toggler') : setToggleIcon('nav__toggler')
     }
+    const closeMenu = () => {
+        setActive("nav__menu")
+    }
     return (
         
         <nav className="nav">
@@ -27,7 +30,7 @@ const path = window.location.pathname
             <ul className={active}>
                 {menuItems.map((item, index) => (
                     <li key={index} className="nav__item">
-                        <Link to={item.url} className="nav__link">{item.text}</Link>
+                        <Link to={item.url} className="nav__link" onClick={closeMenu}>{item.text}</Link>
                     </li>
                 
                 ))}
