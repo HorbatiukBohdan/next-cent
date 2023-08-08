@@ -33,7 +33,7 @@ function Navbar() {
     return (
         <nav className="nav">
             <img className="logo" src={logo} alt="Logo" />
-            {burgerMenuOpen && <div className="nav__overlay" onClick={closeMenu}></div>}
+            <div className={`nav__overlay ${burgerMenuOpen ? "overlay-active" : ""}`} onClick={closeMenu}></div>
             <ul className={active}>
                 {menuItems.map((item, index) => (
                     <li key={index} className="nav__item">
